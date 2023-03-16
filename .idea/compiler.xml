@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bin-auth" />
+        <module name="bin-gateway" />
+        <module name="bin-order" />
+        <module name="bin-user" />
+        <module name="binorder" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bin-order (1)" target="1.8" />
+      <module name="bincloud" target="1.8" />
+      <module name="gateway" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bin-auth" options="-parameters" />
+      <module name="bin-gateway" options="-parameters" />
+      <module name="bin-order" options="-parameters" />
+      <module name="bin-order (1)" options="-parameters" />
+      <module name="bin-user" options="-parameters" />
+      <module name="binorder" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+    </option>
+  </component>
+</project>
